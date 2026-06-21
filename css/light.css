@@ -1,0 +1,26 @@
+.stApp {
+    background: radial-gradient(circle at top left, #dbeafe 0%, #f8fafc 45%, #eef2ff 100%) !important;
+    color: #0f172a !important;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, label, div, li {
+    color: #0f172a !important;
+}
+
+[data-testid="stSidebar"] {
+    background: rgba(255,255,255,0.70) !important;
+    backdrop-filter: blur(26px);
+    -webkit-backdrop-filter: blur(26px);
+    border-right: 1px solid rgba(15,23,42,0.14);
+}
+
+.glass-card {
+    background: rgba(255,255,255,0.68);
+    backdrop-filter: blur(26px);
+    -webkit-backdrop-filter: blur(26px);
+    border: 1px solid rgba(15,23,42,0.14);
+    box-shadow: 0 25px 70px rgba(15,23,42,0.16);
+    border-radius: 28px;
+    padding: 28px;
+    margin-bottom: 24px;
+}
